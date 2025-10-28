@@ -1,7 +1,7 @@
 # Pokeneas – Taller AWS Flask + Docker Swarm
 
 ## Descripción
-Aplicación Flask que muestra información aleatoria sobre Pokeneas (una versión divertida de Pokémon).  
+Aplicación Flask que muestra información aleatoria sobre Pokeneas. 
 Las imágenes se almacenan en **AWS S3** y la app se despliega con **Docker Swarm** sobre instancias EC2.
 
 ## Rutas
