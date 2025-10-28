@@ -1,0 +1,5 @@
+Flask
+boto3
+gunicorn
+
+# docker build -t sarapineda12/pokeneas

@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pokenea</title>
+    <style>
+      body { font-family: Arial, sans-serif; text-align: center; background: #f2f2f2; }
+      img { max-width: 300px; border-radius: 10px; box-shadow: 0 0 10px #999; }
+      .container { margin-top: 50px; background: white; padding: 30px; border-radius: 15px; display: inline-block; }
+      small { color: #888; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>{{ nombre }}</h1>
+      <img src="{{ imagen }}" alt="{{ nombre }}">
+      <p><em>{{ frase }}</em></p>
+      <small>container id: {{ container_id }}</small>
+    </div>
+  </body>
+</html>
+
