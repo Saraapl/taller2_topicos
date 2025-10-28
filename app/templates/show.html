@@ -13,10 +13,11 @@
   <body>
     <div class="container">
       <h1>{{ nombre }}</h1>
-      <img src="{{ imagen }}" alt="{{ nombre }}">
+      
+      <img src="{{ url_for('static', filename=imagen) }}" alt="{{ nombre }}">
+      
       <p><em>{{ frase }}</em></p>
       <small>container id: {{ container_id }}</small>
     </div>
   </body>
 </html>
-
